@@ -9,6 +9,11 @@ import io.ktor.client.features.logging.*
 import io.ktor.client.request.*
 import io.ktor.http.*
 import kotlinx.serialization.json.Json
+
+/**
+ * @author Venky Maganahalli updated on 08/29/2021
+ */
+
 // this log code only to log http in both ios and android
 private fun createHttpClient(): HttpClient {
 
